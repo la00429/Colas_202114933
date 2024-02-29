@@ -17,6 +17,7 @@ public class MyQueue<T> {
             tail = head;
         } else {
             tail.setNext(node);
+            tail = node;
         }
     }
     
